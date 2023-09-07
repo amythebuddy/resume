@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(221, 225, 229);
+}
+.paper{
+    max-width: 750px;
+    width: 700px;
+    height: 900px;
+    background-color: white;
+    margin: -5px auto;
+    border: 1px gray solid;
+}
+hr{
+    float: right;
+    width: 58%;
+    size: 29%;
+    margin: 4% 5% 0 3%;
+    background-color: black;
+    height: 3px;
+    border: black;
+    display: inline;
+}
+h1{
+    color: rgb(242, 111, 111);
+    padding: 0 0 0 40px;
+    text-shadow: 5px 4px 6px gray;
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+}
+.contact{
+    padding: 0 0 0 37%;
+    line-height: 20px;
+    margin: -1px 0;
+    font-family:  cursive;
+}
+h2{
+    font-size: 20px;
+    height: 30px;
+    margin: -5% 0 0 0;
+    padding: 0 0 0 37%;
+    font-family: cursive;
+}
+.smallLine{
+    margin: 30px 0 0 40px;
+    width: 2%;
+    border: 1px black solid;
+    display: inline-block;
+}
+h3{
+    padding: 0 0 0 40px;
+    width: 20%;
+    height: 10%;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+p{
+    font-size: 19px;
+    height: 50px;
+    padding: 0 0 0 10%;
+    font-family: 'Indie Flower', cursive;
+}
+b{
+    font-size: 22px;
+}
+span{
+    font-size: 11px;
+    color: gray;
+    margin: 0 0 20px 0;
+}
+table{
+    font-size: 18px;
+    width: 60%;
+    height: 20px;
+    margin: 3px 0 -20px 0;
+    font-family: 'Indie Flower', cursive;
+}
+.flex-box{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+.desc{ /*applying to the bulletpoints of description */
+    padding: 0 0 0 43%;
+    margin: -10px 0 0 0;
+    font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+}
+.row-space{ /*applying to Silicon Valley row because it keeps collapsing into Hobbies*/
+    margin: 50px 0;
+}
